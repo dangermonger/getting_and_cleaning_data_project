@@ -28,7 +28,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Cleaning of the data
 
-Separated files are read and appended into three data frames. Column names are added. ID columns are added to allow merging between data frames. The resultant data frame is then converted to a tbl and the required columns are selected. The activity labels are matched with the tbl activity ids and replaced. The activity and volunteer columns are then grouped and the mean is then calculated for the remaining columns. Write tidy data frame. For more detailed information, please go to the [README]() for this project.
+Separated files are read and appended into three data frames. Column names are added. ID columns are added to allow merging between data frames. The resultant data frame is then converted to a tbl and the required columns are selected. The activity labels are matched with the tbl activity ids and replaced. The activity and volunteer columns are then grouped and the mean is then calculated for the remaining columns. Write tidy data frame. For more detailed information, please go to the [README](https://github.com/dangermonger/getting_and_cleaning_data_project/blob/master/README.txt) for this project.
 
 ## Description of the variables in the tidytable.txt file
 
